@@ -1,5 +1,6 @@
+//task 2
 
-void main (){
+  void main (){
   int number=-5;
   if(number<0){
     print("Negative Number");
