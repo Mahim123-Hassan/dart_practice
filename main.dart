@@ -1,14 +1,17 @@
-//task 2
+//task 3
 
-  void main (){
-  int number=-5;
-  if(number<0){
-    print("Negative Number");
-  }else if(number==0){
-    print("Zero");
-  }else if(number %2==0){
-    print("Even Number");
-  }else{
-    print("Odd Number");
-  }
+void main(){
+int a=10;
+int b=25;
+int c=15;
+
+if(a>=b&&b>=c){
+  print("Biggest Number is$a");
+
+}else if(b>=a&&b>=c){
+  print('Bigest Number is $b');
+  
+}else {
+  print("Biggest number is $c");
+}
 }
