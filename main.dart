@@ -1,17 +1,20 @@
-//task 3
 
-void main(){
-int a=10;
-int b=25;
-int c=15;
+// task 4
+void main (){
+  int marks =58;
+  if(marks>=80){
+    print("A+");
+    
+  }else if(marks>=70){
+    print("A");
+  }else if(marks >=60){
+    print('B');
+  }else if(marks >=50){
+print("C");
+  }else if(marks >=33){
+    print("D");
+  }else{
+    print("F");
+  }
 
-if(a>=b&&b>=c){
-  print("Biggest Number is$a");
-
-}else if(b>=a&&b>=c){
-  print('Bigest Number is $b');
-  
-}else {
-  print("Biggest number is $c");
-}
 }
