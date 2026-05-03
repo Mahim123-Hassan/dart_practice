@@ -1,20 +1,20 @@
 
-// task 4
+// task 5
 void main (){
-  int marks =58;
-  if(marks>=80){
-    print("A+");
-    
-  }else if(marks>=70){
-    print("A");
-  }else if(marks >=60){
-    print('B');
-  }else if(marks >=50){
-print("C");
-  }else if(marks >=33){
-    print("D");
-  }else{
-    print("F");
-  }
+
+String username="admin";
+String password="12234";
+if(username=="admin" && password=="1234"){
+  print("Login Success");
+
+
+}else if(username == "mahim" || password=="1234"){
+  print("Wrong Username");
+}else if(username=='admin'|| password=='1111'){
+  print('Wrong Password');
+}else{
+  print("Access Denied");
+}
+
 
 }
